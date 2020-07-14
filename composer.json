@@ -1,13 +1,16 @@
 {
-    "name": "atha/facebook-sdk",
-    "description": "Just a simple covid19 app",
-    "keywords": ["php", "api", "rest-api", "facebook", "sdk"],
-    "license": "None",
-    "authors": [
-        {
-            "name": "Atha Tsaqif",
-            "email": "atha.3417@gmail.com",
-            "homepage": "http://example.com/"
-        }
-    ]
+	"name": "atha/facebook-sdk",
+	"description": "Just a simple covid19 app",
+	"keywords": ["php", "api", "rest-api", "facebook", "sdk"],
+	"license": "None",
+	"authors": [
+	    {
+	        "name": "Atha Tsaqif",
+	        "email": "atha.3417@gmail.com",
+	        "homepage": "http://example.com/"
+	    }
+	],
+    "require": {
+        "facebook/graph-sdk": "^5.7"
+    }
 }
